@@ -1,0 +1,40 @@
+#primary {
+display: grid;
+grid-template-columns: 20% 20% 20% 20%;
+grid-template-rows: 30% 30% 30%;
+grid-template-areas: 'header' 'menu' 'main' 'main' 'footer' 'footer';
+
+}
+#gridOne {
+    background-color: chocolate;
+    grid-area: header;
+    width: 200;
+}
+#gridTwo {
+    background-color: plum;
+    
+}
+#gridSan {
+    background-color: cornflowerblue;
+    grid-area: menu;
+}
+#gridFour {
+   
+    background-color: darkseagreen;
+    grid-area: main;
+
+}
+#gridCinc {
+    background-color: indigo;
+    grid-area:footer ;
+}
+#gridSix {
+    background-color: royalblue;
+}
+#gridSeis {
+    background-color: salmon;
+}
+.inner {
+    /* width: 500px; */
+    /* height: 500px;  */
+}
